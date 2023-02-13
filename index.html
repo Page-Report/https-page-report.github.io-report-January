@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css"><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.com/libraries/Chart.js"><link rel="icon" href="img/logo.png">
+    <title>January</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <ul class="nav-ul" id="nav"> 
+        <li class="nav-li"> <a href="#questions">Частые вопросы </a></li>
+        <li class="nav-li"> <a href="#feature">Запросы функций</a></li>
+        <li class="nav-li"> <a href="#OS">Клавификация ОС</a></li>
+      </ul>
+    </nav>
+    <div class="container questions">
+      <div class="tab-content_cnt--label">
+        <h2 class="tab-content_cnt--label" id="questions">Часто задаваемые вопросы </h2>
+      </div>
+      <button class="tab-open"><span class="tab-open--figure">LDAP (3)</span></button>
+      <div class="tab-content">
+        <div class="tab-content_cnt"><span class="tab-content--line">—</span>
+          <div class="tab-content_text">Как настроить LDAP</div>
+        </div>
+        <div class="tab-content_cnt"><span class="tab-content--line">—</span>
+          <div class="tab-content_text">Ошибки при авторизации пользователей LDAP</div>
+        </div>
+        <div class="tab-content_cnt"><span class="tab-content--line">—</span>
+          <div class="tab-content_text">Не работает «Связь групп и ролей»</div>
+        </div>
+        <div class="tab-content_cnt"><span class="tab-content--ps">P.S</span>
+          <div class="tab-content_text">Большинство проблем с LDAP решаются отправкой примера настройки LDAP, а также добавлением атрибутов samaccountname или uid.</div>
+        </div>
+        <div class="tab-content_cnt">
+          <div class="tab-content_text">Возможно добавить раздел с основной документацией и с дополнительными разделами для LDAP.</div>
+        </div>
+        <div class="tab-content_cnt-img"><img class="tab-content_img--large img--hidden" src="img/ldap_set.png" alt="#"></div>
+      </div>
+      <button class="tab-open"><span class="tab-open--figure">Установка / Сборка (3)</span></button>
+      <div class="tab-content">
+        <div class="tab-content_cnt"><span class="tab-content--line">—</span>
+          <div class="tab-content_text">Длительный процесс сборки Phalcon или сборка с ошибками</div>
+        </div>
+        <div class="tab-content_cnt"><span class="tab-content--line">—</span>
+          <div class="tab-content_text">Как обновить Пассворк и какие внесены изменения</div>
+        </div>
+        <div class="tab-content_cnt"><span class="tab-content--ps">P.S</span>
+          <div class="tab-content_text">Добавьте прямую ссылку на портал «Документация Пассворк» и также файл или ссылку со списком изменений.</div>
+        </div>
+        <div class="tab-content_cnt-img"><img class="tab-content_img img--hidden" src="img/portal_dcm.png" alt="#"></div>
+      </div>
+      <button class="tab-open"><span class="tab-open--figure">Шифрование (1)</span></button>
+      <div class="tab-content">
+        <div class="tab-content_cnt"><span class="tab-content--line">—</span>
+          <div class="tab-content_text">Как шифруется база данных и как работает клиентское шифрование.</div>
+        </div>
+        <div class="tab-content_cnt"><span class="tab-content--ps">P.S</span>
+          <div class="tab-content_text">Возможно, также можно добавить на портал статьи о шифровании Пассворк.</div>
+        </div>
+      </div>
+      <button class="tab-open"><span class="tab-open--figure">Документация Пассворк</span></button>
+      <div class="tab-content">
+        <div class="tab-content_cnt">
+          <div class="tab-content_text">Можно добавить новые разделы LDAP и SSO в общую документацию Пассворк. <br></div>
+          <div class="tab-content_text">Для LDAP создать различные подразделы тем, а в SSO список инструкций для разных провайдеров.</div>
+        </div>
+        <div class="tab-content_cnt-img"><img class="tab-content_img img--hidden" src="img/notion_dcm.png" alt="#"></div>
+      </div>
+    </div>
+    <div class="container">
+      <h2 class="tab-content_cnt--label" id="feature">Большинство запросов | Январь</h2>
+      <div class="table">
+        <div class="table_inner">
+          <button class="tab-open tab-open--none"><span class="tab-open--figure tab-open--figure--none">Корзина (6)</span></button>
+        </div>
+        <div class="table_inner">
+          <button class="tab-open tab-open--none"><span class="tab-open--figure tab-open--figure--none">Установка логотипа компании (6)</span></button>
+        </div>
+        <div class="table_inner">
+          <button class="tab-open tab-open--none"><span class="tab-open--figure tab-open--figure--none">Роль «Аудитор» (4)</span></button>
+        </div>
+        <div class="table_inner">
+          <button class="tab-open tab-open--none"><span class="tab-open--figure tab-open--figure--none">Скрытые пароли (3)</span></button>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="tab-content_cnt--label">
+        <h2 class="tab-content_cnt--label" id="OS">Обращения с ОС | Январь</h2>
+      </div>
+      <div class="os_cnt">
+        <div class="circle-os"> 
+          <div class="circle-os_line"> 
+            <div class="circle-os_line--front">  </div>
+            <div class="circle-os_line--load circle-os_line--load_OS--Ubuntu"></div>
+            <div class="circle-os_line--load circle-os_line--load_OS--Debian"></div>
+            <div class="circle-os_line--load circle-os_line--load_OS--CentOS"></div>
+            <div class="circle-os_line--load circle-os_line--load_OS--RHEL"></div>
+            <div class="circle-os_line--load circle-os_line--load_OS--Astra"></div>
+            <div class="circle-os_line--load circle-os_line--load_OS--Windows"></div>
+            <div class="circle-os_line--load circle-os_line--load_OS--Docker"></div>
+            <div class="circle-os_line--load circle-os_line--load_OS--Cloud"></div>
+            <div class="circle-os_line--load circle-os_line--load_OS--Unknow"></div>
+            <div class="circle-os_line--load circle-os_line--load_OS--Unknow--01"></div>
+          </div>
+        </div>
+        <div class="description-os">
+          <div class="description-os_name">
+            <div class="description-os_cnt"><span class="description-os--Ubuntu"></span>
+              <p class="description-os_text">Ubuntu — <span class="description-os_count">21</span></p>
+            </div>
+            <div class="description-os_cnt"><span class="description-os--Debian"></span>
+              <p class="description-os_text">Debian — <span class="description-os_count">07</span></p>
+            </div>
+            <div class="description-os_cnt"><span class="description-os--CentOS"></span>
+              <p class="description-os_text">CentOS — <span class="description-os_count">06</span></p>
+            </div>
+            <div class="description-os_cnt"><span class="description-os--RHEL"></span>
+              <p class="description-os_text">RHEL — <span class="description-os_count">02</span></p>
+            </div>
+            <div class="description-os_cnt"><span class="description-os--Astra"></span>
+              <p class="description-os_text">Astra — <span class="description-os_count">04</span></p>
+            </div>
+            <div class="description-os_cnt"><span class="description-os--Windows"></span>
+              <p class="description-os_text">Windows — <span class="description-os_count">25</span></p>
+            </div>
+            <div class="description-os_cnt"><span class="description-os--Docker"></span>
+              <p class="description-os_text">Docker — <span class="description-os_count">10</span></p>
+            </div>
+            <div class="description-os_cnt"><span class="description-os--Cloud"></span>
+              <p class="description-os_text">Cloud — <span class="description-os_count">29</span></p>
+            </div>
+            <div class="description-os_cnt"><span class="description-os--Unknown"></span>
+              <p class="description-os_text">Неопределённо — <span class="description-os_count">73</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/console.js"></script>
+  </body>
+</html>
